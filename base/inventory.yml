@@ -12,7 +12,7 @@ images:
   - name: "nodesource/vivid-base"
     path: "./ubuntu/vivid"
   - name: "nodesource/xenial-base"
-    path: "./debian/xenial"
+    path: "./ubuntu/xenial"
   - name: "nodesource/centos5-base"
     path: "./centos/5"
   - name: "nodesource/centos6-base"
