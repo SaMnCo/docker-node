@@ -1,7 +1,7 @@
 FROM samnco/xenial-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
 
-RUN curl https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/nodejs_6.0.0-1nodesource1~trusty1_amd64.deb > node.deb \
+RUN curl https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/nodejs_6.0.0-1nodesource1~xenial1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
 

@@ -1,7 +1,7 @@
 FROM samnco/xenial-base
 MAINTAINER William Blankenship <wblankenship@nodesource.com>
 
-RUN curl https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/nodejs_4.4.4-1nodesource1~trusty1_amd64.deb > node.deb \
+RUN curl https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/nodejs_4.4.4-1nodesource1~xenial1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
 
@@ -16,5 +16,5 @@ CMD ["npm","start"]
 
 RUN apt update \
  && apt upgrade -y --allow-downgrades --allow-remove-essential --allow-change-held-packages \
- && apt remove --purge -y binutils
+ && apt remove --purge -y binutils krb5* libkrb5* \
  && rm -rf /var/lib/apt/lists/*;
