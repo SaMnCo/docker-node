@@ -28,6 +28,8 @@ dists['ubuntu']['trusty']['iojs']   = []\n
 dists['ubuntu']['vivid']   = []\n
 dists['ubuntu']['vivid']['node']   = []\n
 dists['ubuntu']['vivid']['iojs']   = []\n
+dists['ubuntu']['xenial']   = []\n
+dists['ubuntu']['xenial']['node']   = []\n
 dists['centos'] = []\n
 dists['centos']['5'] = []\n
 dists['centos']['5']['node'] = []\n
@@ -84,7 +86,7 @@ for i in "${!URLS[@]}"; do
       jessie | sid | wheezy)
         dist="debian"
         ;;
-      vivid | trusty | precise)
+      vivid | trusty | precise | xenial)
         dist="ubuntu"
         ;;
       *)

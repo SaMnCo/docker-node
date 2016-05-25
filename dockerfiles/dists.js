@@ -842,3 +842,15 @@
  dists['fedora']['21']['iojs']['3.1.0'] = {url: 'https://rpm.nodesource.com/pub_iojs_3.x/fc/21/x86_64/', rpm: 'iojs-3.1.0-1nodesource.fc21.x86_64.rpm'}
  dists['fedora']['21']['iojs']['3.2.0'] = {url: 'https://rpm.nodesource.com/pub_iojs_3.x/fc/21/x86_64/', rpm: 'iojs-3.2.0-1nodesource.fc21.x86_64.rpm'}
  dists['fedora']['21']['iojs']['3.3.0'] = {url: 'https://rpm.nodesource.com/pub_iojs_3.x/fc/21/x86_64/', rpm: 'iojs-3.3.0-1nodesource.fc21.x86_64.rpm'}
+ dists['ubuntu']['xenial']['node']['4.4.2'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.4.2-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['4.4.3'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.4.3-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['4.4.4'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.4.4-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['4.4.5'] = {url: 'https://deb.nodesource.com/node_4.x/pool/main/n/nodejs/', deb: 'nodejs_4.4.5-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['5.10.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.10.0-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['5.10.1'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.10.1-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['5.11.0'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.11.0-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['5.11.1'] = {url: 'https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/', deb: 'nodejs_5.11.1-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['6.0.0'] = {url: 'https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/', deb: 'nodejs_6.0.0-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['6.1.0'] = {url: 'https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/', deb: 'nodejs_6.1.0-1nodesource1~xenial1_amd64.deb'}
+ dists['ubuntu']['xenial']['node']['6.2.0'] = {url: 'https://deb.nodesource.com/node_6.x/pool/main/n/nodejs/', deb: 'nodejs_6.2.0-1nodesource1~xenial1_amd64.deb'}
+  
